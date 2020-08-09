@@ -1,0 +1,14 @@
+pySmartDL(https://github.com/iTaybb/pySmartDL)
+
+Installation Guide 
+
+Step 1:Installation
+	Run pip install pySmartDL
+
+Step 2:Create python command(Must specify destination)
+	Open download.py
+	Paste the link
+	Run python download.py
+
+Step 3:Improve or Edit download.py
+	Go to docs(https://itaybb.github.io/pySmartDL/examples.html#example-1-downloading-a-file-and-running-it)

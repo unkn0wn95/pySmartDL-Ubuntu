@@ -1,0 +1,10 @@
+from pySmartDL import SmartDL
+
+url = "https://00e9e64bac27dfa59fd02801f7037c262e07a936b3c0faad9f-apidata.googleusercontent.com/download/storage/v1/b/gold-gadget-285203/o/7X_IYQOUWTWB%2F23d_1596929934_e_204391.mp4?qk=AD5uMEtwEEE1x3aYJg9N5a56ItflaDT-H31hwbjDo8h8PZ0-MIAvxQQ1f3IEu7SSLoGszztalz2y1q4d0XP6TIiCchZvNjlq9c3Te8iHDbRF_-3YuMxy2MzVDprSM4vivJ5r-lTWDCBCNmYa2yXJvltfiZMJkpSFKh_VCpvDAqXoQxV8egrhfPmmSVn0fVkmB9Fwq45dU6Wt6HufWrc-bVjj7Cu5tATv5AOhug-wy7lOBTDq4LIOsRyOW078X0RGEfhRWa9tBGh6GQNx093TdXPe9AzYIIhlV50GfMneeHVe3PEghFYRB1e2pituL7gHlOLh5BjMcIrvmk3sqZuxAszcNRetX0d8-BxjS1U-b7Psy9L9DAtShhQPpRFI263fskn3t9mGENGHhCqMhNMuCvUI5Pz22WRaYQb6DQuBtwUHu6HLBSAKofTrlUTCGsHrClJV0cKbMItcOTxBBvbEkgYzhM6h2Y1SRw7cENyPBPxAmOUeC5B5fgK2EYkKjYDyN6W0A1h83vmZshHK1Apk1pl66SZG5UXWrAwFf9Q3b5mkqMxKjf85tMiajtX4WjxyGTyq8yUYafQXJ5LEZ3fsaFLuQDVxSuV8D6KTcRJBBTuMYdKMgndLCli6QNXQ5eUVxqGO2pYY_dqN4lZr1HY0Kr_HL8pBiJ2j4lur8tgUXCYGjpblKJlWfciVzk0wa93tQNd7az_VRcecqIfDH9eOjtmXVH6Y2CTWp54Tw6wF-r5LZNRVCB7iUFzG91Oes_JR_3jyvqcRKgslM-l1Qnh6bg_gh0ZX-TImss-l32rZFLz8zUI9x0sMM4KmZSrPE8ynxx1Ba7bBSJ-OyYG3zzA1-bZkNo6fSszopg&isca=1"
+dest = '/home/wew/Downloads'
+
+obj = SmartDL(url, dest)
+obj.start()
+# [*] 0.23 / 0.37 MB @ 88.00KB/s [##########--------] [60%, 2s left]
+
+path = obj.get_dest()
